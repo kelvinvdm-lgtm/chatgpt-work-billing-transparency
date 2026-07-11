@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kelvinvdm-lgtm.github.io/chatgpt-work-billing-transparency/sitemap.xml

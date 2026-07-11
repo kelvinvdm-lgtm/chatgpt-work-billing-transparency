@@ -1,0 +1,63 @@
+{
+  "project": "ChatGPT Work Billing Transparency",
+  "last_verified": "2026-07-11",
+  "canonical_url": "https://kelvinvdm-lgtm.github.io/chatgpt-work-billing-transparency/",
+  "method": "Claims are classified as documented fact, reasonable inference, or not established. Primary OpenAI sources are preferred.",
+  "claims": [
+    {
+      "id": "shared-agentic-pool",
+      "classification": "documented-fact",
+      "claim": "Codex, ChatGPT Work, ChatGPT for Excel and Workspace Agents draw from the same agentic usage and credit pool when available.",
+      "source": "https://help.openai.com/en/articles/11369540-codex-in-chatgpt"
+    },
+    {
+      "id": "same-work-codex-pricing",
+      "classification": "documented-fact",
+      "claim": "Work usage inside ChatGPT uses the same pricing, credits and usage limits as Codex.",
+      "source": "https://learn.chatgpt.com/docs/pricing"
+    },
+    {
+      "id": "shared-credit-balance",
+      "classification": "documented-fact",
+      "claim": "After included limits are reached, credits can be used across supported features including Codex and ChatGPT Work.",
+      "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
+    },
+    {
+      "id": "auto-top-up",
+      "classification": "documented-fact",
+      "claim": "If an eligible user enables Auto top-up, the shared credit balance can trigger a purchase when it falls below the configured minimum.",
+      "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
+    },
+    {
+      "id": "credits-expiry-refunds",
+      "classification": "documented-fact",
+      "claim": "Credits are generally non-refundable and expire 12 months after purchase, subject to applicable law.",
+      "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
+    },
+    {
+      "id": "image-usage-rate",
+      "classification": "documented-fact",
+      "claim": "Image generation uses the same general limits and consumes included usage around three to five times faster on average, depending on quality and size.",
+      "source": "https://learn.chatgpt.com/docs/pricing"
+    },
+    {
+      "id": "codex-capacity-impact",
+      "classification": "reasonable-inference",
+      "claim": "For a user who uses both products, Work activity can reduce the included capacity remaining for Codex because both draw from one allowance.",
+      "supporting_sources": [
+        "https://help.openai.com/en/articles/11369540-codex-in-chatgpt",
+        "https://learn.chatgpt.com/docs/pricing"
+      ]
+    },
+    {
+      "id": "ordinary-chat-mcp-metering",
+      "classification": "not-established",
+      "claim": "No official source located as of the verification date establishes that an ordinary Chat conversation automatically becomes Work usage merely because it calls an MCP tool."
+    },
+    {
+      "id": "intentional-deception",
+      "classification": "not-established",
+      "claim": "This project does not claim evidence that OpenAI intentionally designed the disclosure to deceive consumers."
+    }
+  ]
+}
