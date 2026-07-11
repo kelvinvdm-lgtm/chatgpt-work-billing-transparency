@@ -1,63 +1,66 @@
 {
-  "project": "ChatGPT Work Billing Transparency",
+  "project": "ChatGPT Paid Usage Pool Transparency",
   "last_verified": "2026-07-11",
   "canonical_url": "https://kelvinvdm-lgtm.github.io/chatgpt-work-billing-transparency/",
-  "method": "Claims are classified as documented fact, reasonable inference, or not established. Primary OpenAI sources are preferred.",
+  "central_thesis": "Multiple agentic products can compete for the same paid-plan included usage allowance and shared purchased credits. When one product consumes the pool, less remains for the others.",
+  "site_created_with": "GPT-5.6 Thinking",
+  "technology_acknowledgment": "GPT-5.6 Thinking's exceptional reasoning, research, writing, evidence-organization and development capabilities were used to create this public project.",
+  "thanks": "The project sincerely thanks OpenAI's researchers, engineers, safety teams and product staff for their work and continued improvements.",
+  "method": "Claims are classified as documented fact, reasonable inference, consumer position, or not established. Primary OpenAI sources are preferred.",
   "claims": [
     {
-      "id": "shared-agentic-pool",
+      "id": "multiple-products-one-pool",
       "classification": "documented-fact",
-      "claim": "Codex, ChatGPT Work, ChatGPT for Excel and Workspace Agents draw from the same agentic usage and credit pool when available.",
+      "claim": "Codex, ChatGPT Work, ChatGPT for Excel and Workspace Agents draw from the same agentic usage and credit pool when those features are available.",
       "source": "https://help.openai.com/en/articles/11369540-codex-in-chatgpt"
     },
     {
-      "id": "same-work-codex-pricing",
+      "id": "included-usage-first",
       "classification": "documented-fact",
-      "claim": "Work usage inside ChatGPT uses the same pricing, credits and usage limits as Codex.",
-      "source": "https://learn.chatgpt.com/docs/pricing"
-    },
-    {
-      "id": "shared-credit-balance",
-      "classification": "documented-fact",
-      "claim": "After included limits are reached, credits can be used across supported features including Codex and ChatGPT Work.",
+      "claim": "A plan's included usage is used first. After the limit is reached, supported usage can draw from purchased credits where available.",
       "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
     },
     {
-      "id": "auto-top-up",
+      "id": "cross-product-credits",
       "classification": "documented-fact",
-      "claim": "If an eligible user enables Auto top-up, the shared credit balance can trigger a purchase when it falls below the configured minimum.",
+      "claim": "Credits purchased through Codex can be consumed by other supported features, including ChatGPT Work and ChatGPT for Excel.",
       "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
     },
     {
-      "id": "credits-expiry-refunds",
+      "id": "auto-top-up-shared-balance",
       "classification": "documented-fact",
-      "claim": "Credits are generally non-refundable and expire 12 months after purchase, subject to applicable law.",
+      "claim": "If an eligible user enables Auto top-up, consumption across supported products can lower the shared balance and trigger a purchase under the user's configured settings.",
       "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
     },
     {
-      "id": "image-usage-rate",
+      "id": "individual-user-contribution",
       "classification": "documented-fact",
-      "claim": "Image generation uses the same general limits and consumes included usage around three to five times faster on average, depending on quality and size.",
-      "source": "https://learn.chatgpt.com/docs/pricing"
+      "claim": "OpenAI says content from individual services may be used to train and improve models unless the user opts out, and that real-world problems and data help improve accuracy, capabilities and safety.",
+      "source": "https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/"
     },
     {
-      "id": "codex-capacity-impact",
+      "id": "capacity-competition",
       "classification": "reasonable-inference",
-      "claim": "For a user who uses both products, Work activity can reduce the included capacity remaining for Codex because both draw from one allowance.",
+      "claim": "When multiple products draw from one finite allowance, use by one product leaves less included capacity for the others and may lead users to ration work, wait, upgrade or buy credits.",
       "supporting_sources": [
         "https://help.openai.com/en/articles/11369540-codex-in-chatgpt",
-        "https://learn.chatgpt.com/docs/pricing"
+        "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora"
       ]
     },
     {
-      "id": "ordinary-chat-mcp-metering",
-      "classification": "not-established",
-      "claim": "No official source located as of the verification date establishes that an ordinary Chat conversation automatically becomes Work usage merely because it calls an MCP tool."
+      "id": "fair-value-position",
+      "classification": "consumer-position",
+      "claim": "Paying users do not need to demand wages or ownership to reasonably expect clear disclosure, adequate capacity and protection against silent dilution of a paid work allowance."
     },
     {
-      "id": "intentional-deception",
+      "id": "margin-intent",
       "classification": "not-established",
-      "claim": "This project does not claim evidence that OpenAI intentionally designed the disclosure to deceive consumers."
+      "claim": "The available public evidence does not establish that the shared-pool design was adopted specifically to increase margins or prove OpenAI's internal financial intent."
+    },
+    {
+      "id": "all-conversations-train",
+      "classification": "not-established",
+      "claim": "It is not accurate to say every conversation trains every model. Individual users can opt out, Temporary Chats are excluded, and business products are opted out by default."
     }
   ]
 }
