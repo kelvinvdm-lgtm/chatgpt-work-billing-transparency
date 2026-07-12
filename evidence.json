@@ -1,6 +1,6 @@
 {
   "project": "ChatGPT Paid Usage Pool Transparency",
-  "last_verified": "2026-07-11",
+  "last_verified": "2026-07-12",
   "canonical_url": "https://kelvinvdm-lgtm.github.io/chatgpt-work-billing-transparency/",
   "central_thesis": "Multiple agentic products can compete for the same paid-plan included usage allowance and shared purchased credits. When one product consumes the pool, less remains for the others.",
   "site_created_with": "GPT-5.6 Thinking",
@@ -61,6 +61,37 @@
       "id": "all-conversations-train",
       "classification": "not-established",
       "claim": "It is not accurate to say every conversation trains every model. Individual users can opt out, Temporary Chats are excluded, and business products are opted out by default."
+    },
+    {
+      "id": "codex-token-rate-card",
+      "classification": "documented-fact",
+      "claim": "OpenAI states that most new and existing customers across Plus, Pro, Business, Enterprise, Health, Edu and Gov have been migrated from legacy per-message Codex pricing to token-based credit pricing; a small subset of Enterprise customers remains on the legacy rate card.",
+      "source": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "verified": "2026-07-12"
+    },
+    {
+      "id": "codex-typical-task-range",
+      "classification": "documented-fact",
+      "claim": "OpenAI states that a typical Codex task using GPT-5.5 may consume approximately 5 to 45 credits, while actual use varies by task and configuration.",
+      "source": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "verified": "2026-07-12"
+    },
+    {
+      "id": "business-powerpoint-shared-pool",
+      "classification": "documented-fact",
+      "claim": "For ChatGPT Business, OpenAI states that ChatGPT Work, Workspace Agents, ChatGPT for Excel and ChatGPT for PowerPoint draw from the same agentic usage and credit pool. PowerPoint charging begins on 6 August 2026.",
+      "source": "https://help.openai.com/en/articles/11481834-chatgpt-rate-card-business-enterpriseedu",
+      "verified": "2026-07-12"
+    },
+    {
+      "id": "individual-financial-impact",
+      "classification": "not-established",
+      "claim": "The public documentation does not establish the exact financial loss or gain for an individual subscriber because consumption varies by model, tokens, context, tools, task complexity and product mix.",
+      "supporting_sources": [
+        "https://help.openai.com/en/articles/20001106-codex-rate-card",
+        "https://learn.chatgpt.com/docs/pricing"
+      ],
+      "verified": "2026-07-12"
     }
   ]
 }

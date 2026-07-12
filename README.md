@@ -9,6 +9,10 @@ A public, source-backed consumer transparency project focused on one central iss
 - Credits purchased through Codex may be consumed by other supported products.
 - If a user deliberately enables Auto top-up, activity across the shared balance may contribute to a purchase.
 - OpenAI says individual-service content may be used to improve models unless the user opts out.
+- OpenAI now publishes token-based Codex credit rates for most customers, with a small Enterprise subset still on the legacy per-message card.
+- For ChatGPT Business, OpenAI explicitly includes PowerPoint in the shared agentic pool; charging begins 6 August 2026.
+
+Last verified against official OpenAI sources: 12 July 2026.
 
 ## Consumer position
 
