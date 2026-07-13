@@ -33,3 +33,10 @@ https://kelvinvdm-lgtm.github.io/chatgpt-work-billing-transparency/
 ## Corrections
 
 Open a GitHub issue with a primary source and the exact claim requiring correction.
+
+
+Last verified: 2026-07-13
+
+## Verification update — 13 July 2026
+
+Official OpenAI documentation now records GPT-5.6 Codex token rates, an average Codex cost estimate of US$100–US$200 per developer per month with substantial variance, explicit Plus/Pro sharing of one agentic allowance across Codex, ChatGPT Work and ChatGPT for Excel, and Business automatic-reload behavior including possible immediate charging and an unlimited monthly recharge amount when no cap is entered. Exact individual financial impact remains classified as not established.

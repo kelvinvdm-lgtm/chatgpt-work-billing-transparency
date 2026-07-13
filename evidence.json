@@ -1,6 +1,6 @@
 {
   "project": "ChatGPT Paid Usage Pool Transparency",
-  "last_verified": "2026-07-12",
+  "last_verified": "2026-07-13",
   "canonical_url": "https://kelvinvdm-lgtm.github.io/chatgpt-work-billing-transparency/",
   "central_thesis": "Multiple agentic products can compete for the same paid-plan included usage allowance and shared purchased credits. When one product consumes the pool, less remains for the others.",
   "site_created_with": "GPT-5.6 Thinking",
@@ -92,6 +92,34 @@
         "https://learn.chatgpt.com/docs/pricing"
       ],
       "verified": "2026-07-12"
+    },
+    {
+      "id": "codex-gpt56-token-rates",
+      "classification": "documented-fact",
+      "claim": "OpenAI's current Codex token rate card lists GPT-5.6 Sol at 125 input, 12.50 cached-input and 750 output credits per million tokens; GPT-5.6 Terra at 62.50, 6.250 and 375; and GPT-5.6 Luna at 25, 2.50 and 150 respectively.",
+      "source": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "verified": "2026-07-13"
+    },
+    {
+      "id": "codex-average-monthly-cost",
+      "classification": "documented-fact",
+      "claim": "OpenAI states that Codex costs about US$100 to US$200 per developer per month on average, while emphasizing that actual cost varies substantially with model choice, concurrent instances, automations and fast mode.",
+      "source": "https://help.openai.com/en/articles/20001106-codex-rate-card",
+      "verified": "2026-07-13"
+    },
+    {
+      "id": "plus-pro-agentic-shared-allowance",
+      "classification": "documented-fact",
+      "claim": "OpenAI's Plus/Pro credits documentation now explicitly says supported agentic features including Codex, ChatGPT Work and ChatGPT for Excel can draw from the same agentic usage allowance, and that Auto top-up applies to the shared credit balance.",
+      "source": "https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro-sora",
+      "verified": "2026-07-13"
+    },
+    {
+      "id": "business-auto-reload-unlimited-cap",
+      "classification": "documented-fact",
+      "claim": "For ChatGPT Business, OpenAI states that enabling automatic reload while the balance is already below the minimum may trigger an immediate charge, and leaving the Monthly recharge limit blank permits unlimited automatic reload purchases each month.",
+      "source": "https://help.openai.com/en/articles/20001155-managing-credits-and-spend-controls-in-chatgpt-business",
+      "verified": "2026-07-13"
     }
   ]
 }
